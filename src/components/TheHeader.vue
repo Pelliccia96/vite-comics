@@ -37,11 +37,6 @@ export default {
 .list-item {
     list-style: none;
 }
-
-.list-item a {
-    text-decoration: none;
-}
-
 .list-item a:hover {
     border-bottom: 3px solid blue;
 }

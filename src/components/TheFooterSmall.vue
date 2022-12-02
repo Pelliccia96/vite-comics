@@ -8,11 +8,7 @@
             </div>
             <div class="d-flex justify-content-center align-items-center gap-3">
                 <div><a href=""><h5 class="text-primary fw-bold">FOLLOW US</h5></a></div>
-                <div><a href="#"><img src="../../public/img/footer-facebook.png" alt="facebook logo"></a></div>
-                <div><a href="#"><img src="../../public/img/footer-twitter.png" alt="twitter logo"></a></div>
-                <div><a href="#"><img src="../../public/img/footer-youtube.png" alt="youtube logo"></a></div>
-                <div><a href="#"><img src="../../public/img/footer-pinterest.png" alt="pinterest logo"></a></div>
-                <div><a href="#"><img src="../../public/img/footer-periscope.png" alt="periscope logo"></a></div>
+                <div v-for="item in socialItems"><a href="#"><img :src="item"></a></div>
             </div>
         </div>
     </section>
@@ -22,6 +18,17 @@
 
 <script>
 export default{
+    data() {
+        return {
+            socialItems: [
+                "../../public/img/footer-facebook.png",
+                "../../public/img/footer-periscope.png",
+                "../../public/img/footer-pinterest.png",
+                "../../public/img/footer-twitter.png",
+                "../../public/img/footer-youtube.png",
+            ],
+        }
+    },
 }
 </script>
 

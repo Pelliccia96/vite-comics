@@ -34,9 +34,6 @@ export default {
     height: 30px;
 }
 
-.list-item {
-    list-style: none;
-}
 .list-item a:hover {
     border-bottom: 3px solid blue;
 }

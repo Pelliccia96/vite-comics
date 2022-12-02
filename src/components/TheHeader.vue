@@ -40,9 +40,9 @@ export default {
     padding-bottom: 4.3rem;
 }
 
-.list-item a:nth-child(2){
+/* .list-item a:nth-child(2){
     border-bottom: 4px solid #0d6efd;
     color: #0d6efd !important;
     padding-bottom: 4.3rem;
-}
+} */
 </style>

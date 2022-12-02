@@ -5,7 +5,7 @@
                 <div class="img-container">
                     <img :src="itemBanner.img" class="img-fluid">
                 </div>
-                <div><a href="#" class="text-white">{{itemBanner.title}}</a></div>
+                <div><a href="#" class="text-white fw-semibold">{{itemBanner.title}}</a></div>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 <template>
     <div class="bg-primary">
         <div class="container d-flex justify-content-between py-5">
-            <div v-for="itemBanner in itemsList" class="d-flex align-items-center gap-2">
+            <div v-for="itemBanner in itemsList" class="d-flex align-items-center gap-3">
                 <div class="img-container">
                     <img :src="itemBanner.img" class="img-fluid">
                 </div>

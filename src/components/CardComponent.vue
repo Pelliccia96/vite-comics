@@ -21,6 +21,7 @@ export default {
 <style scoped>
 .card-img-top:hover {
     opacity: 50%;
+    cursor: pointer;
 }
 
 img {

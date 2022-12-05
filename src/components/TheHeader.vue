@@ -9,7 +9,7 @@
                     </div>
                     <div class="nav-list">
                         <ul class="d-flex gap-4 fw-bold">
-                            <li class="list-item" v-for="linkNavList in navList"><a href="#" class="text-dark">{{linkNavList}}</a></li>
+                            <li class="list-item" v-for="(linkNavList,i) in navList"><a href="#" class="text-dark" :class="{'active': i === 1}">{{linkNavList}}</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -40,9 +40,9 @@ export default {
     padding-bottom: 4.3rem;
 }
 
-/* .list-item a:nth-child(2){
+.active {
     border-bottom: 4px solid #0d6efd;
     color: #0d6efd !important;
     padding-bottom: 4.3rem;
-} */
+}
 </style>

@@ -2,7 +2,7 @@
     <div class="card border-0">
         <img :src="card.thumb" class="card-img-top">
         <div class="card-body bg-dark">
-            <h5 class="card-title text-white">{{card.series}}</h5>
+            <h6 class="card-title text-white">{{card.series}}</h6>
         </div>
     </div>
 </template>
@@ -19,4 +19,13 @@ export default {
 </script>
 
 <style scoped>
+.card-img-top:hover {
+    opacity: 50%;
+}
+
+img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: top;
+}
 </style>

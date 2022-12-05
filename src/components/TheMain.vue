@@ -1,8 +1,9 @@
 <template>
     <main class="bg-dark">
+        <div class="main-bg"></div>
         <div class="container">
-            <div class="text-white py-5">
-                <h2>--&#62; Content goes here &#60;--</h2>
+            <div class="text-white d-flex margin-">
+                <h3 class="border border-primary bg-primary rounded fw-bold p-3">CURRENT SERIES</h3>
             </div>
         </div>
     </main>
@@ -14,4 +15,14 @@ export default{
 </script>
 
 <style scoper>
+.main-bg {
+    background-image: url(../../public/img/jumbotron.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+}
+
+.margin- {
+    margin-top: -30px;
+}
 </style>
